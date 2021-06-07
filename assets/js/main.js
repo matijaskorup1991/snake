@@ -18,9 +18,6 @@ function random() {
 
 $on($$('div'), 'mouseover', (e) => {
   e.target.style.backgroundColor = random();
-});
-
-$on($$('div'), 'mouseover', (e) => {
   setTimeout(() => {
     e.target.style.backgroundColor = 'lightblue';
   }, 500);
